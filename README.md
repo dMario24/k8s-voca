@@ -2,7 +2,7 @@
 
 ### kubernetes vocabulary
 
-<img src="https://github.com/dMario24/k8s-voca/assets/134017660/40d16add-96fa-4709-8f1e-f154c10f32af" width=200 />
+![LGTM](https://i.lgtm.fun/2i0x.png)
 
 - [https://pypi.org/project/k8s-voca](https://pypi.org/project/k8s-voca)
 
