@@ -1,0 +1,67 @@
+site_name: k8s_voca
+site_url: https://dmario24.github.io/k8s-voca
+repo_url: https://github.com/dmario24/k8s-voca
+repo_name: dmario24/k8s-voca
+
+theme:
+  logo: img/logo.png
+  favicon: img/favicon-16x16.png
+  name: "material"
+  language: kr
+  features:
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+  palette:
+    - scheme: default
+      toggle:
+        primary: white
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+plugins:
+  - search
+  - mermaid2:
+      version: 8.6.4
+  - mkdocstrings:
+      handlers:
+        python:
+          setup_commands:
+            - import sys
+            - sys.path.append("src")
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.pathconverter
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      # make exceptions to highlighting of code:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
+  - pymdownx.progressbar
+  - fontawesome_markdown
+
+extra:
+  analytics:
+    provider: google
+    property: 
+
+extra_javascript:
+    - https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js
+
+nav:
+  - 'Introduction': 'index.md'
+  - 'k8s_voca Docstring': docs.md
+  - 'Issue Tracker': 'https://github.com/dmario24/k8s-voca/issues'
+
