@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="0.054" timestamp="2023-07-06T20:57:17.916267" hostname="0c0.local"><testcase classname="tests.k8s_voca.test_k8s_voca" name="test_ping" time="0.001" /></testsuite></testsuites>

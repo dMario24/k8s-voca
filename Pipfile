@@ -17,4 +17,4 @@ mkdocs-mermaid2-plugin = "*"
 fontawesome-markdown = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3"
