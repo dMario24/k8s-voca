@@ -1,4 +1,4 @@
-# k8s-voca
+# k8s-voca ( dev )
 
 ### kubernetes vocabulary
 
